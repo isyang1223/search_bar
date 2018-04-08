@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6FDFD7632069ABE3005A97F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDFD7622069ABE3005A97F8 /* AppDelegate.swift */; };
-		6FDFD7652069ABE3005A97F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDFD7642069ABE3005A97F8 /* ViewController.swift */; };
+		6FDFD7652069ABE3005A97F8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDFD7642069ABE3005A97F8 /* SearchViewController.swift */; };
 		6FDFD7682069ABE3005A97F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FDFD7662069ABE3005A97F8 /* Main.storyboard */; };
 		6FDFD76B2069ABE3005A97F8 /* Search_Bar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FDFD7692069ABE3005A97F8 /* Search_Bar.xcdatamodeld */; };
 		6FDFD76D2069ABE3005A97F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FDFD76C2069ABE3005A97F8 /* Assets.xcassets */; };
 		6FDFD7702069ABE3005A97F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FDFD76E2069ABE3005A97F8 /* LaunchScreen.storyboard */; };
 		6FDFD77B2069ABE3005A97F8 /* Search_BarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDFD77A2069ABE3005A97F8 /* Search_BarTests.swift */; };
 		6FDFD7862069ABE3005A97F8 /* Search_BarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDFD7852069ABE3005A97F8 /* Search_BarUITests.swift */; };
+		6FDFD7942069AE32005A97F8 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDFD7932069AE32005A97F8 /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		6FDFD75F2069ABE3005A97F8 /* Search Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Search Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FDFD7622069ABE3005A97F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6FDFD7642069ABE3005A97F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FDFD7642069ABE3005A97F8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		6FDFD7672069ABE3005A97F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FDFD76A2069ABE3005A97F8 /* Search_Bar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Search_Bar.xcdatamodel; sourceTree = "<group>"; };
 		6FDFD76C2069ABE3005A97F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		6FDFD7812069ABE3005A97F8 /* Search BarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Search BarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FDFD7852069ABE3005A97F8 /* Search_BarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_BarUITests.swift; sourceTree = "<group>"; };
 		6FDFD7872069ABE3005A97F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FDFD7932069AE32005A97F8 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				6FDFD7622069ABE3005A97F8 /* AppDelegate.swift */,
-				6FDFD7642069ABE3005A97F8 /* ViewController.swift */,
+				6FDFD7642069ABE3005A97F8 /* SearchViewController.swift */,
 				6FDFD7662069ABE3005A97F8 /* Main.storyboard */,
+				6FDFD7932069AE32005A97F8 /* AddItemViewController.swift */,
 				6FDFD76C2069ABE3005A97F8 /* Assets.xcassets */,
 				6FDFD76E2069ABE3005A97F8 /* LaunchScreen.storyboard */,
 				6FDFD7712069ABE3005A97F8 /* Info.plist */,
@@ -262,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FDFD7652069ABE3005A97F8 /* ViewController.swift in Sources */,
+				6FDFD7652069ABE3005A97F8 /* SearchViewController.swift in Sources */,
+				6FDFD7942069AE32005A97F8 /* AddItemViewController.swift in Sources */,
 				6FDFD7632069ABE3005A97F8 /* AppDelegate.swift in Sources */,
 				6FDFD76B2069ABE3005A97F8 /* Search_Bar.xcdatamodeld in Sources */,
 			);
@@ -431,9 +435,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YTYXM9Q86;
 				INFOPLIST_FILE = "Search Bar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Search-Bar";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.TTT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,9 +450,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YTYXM9Q86;
 				INFOPLIST_FILE = "Search Bar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Search-Bar";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.TTT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
